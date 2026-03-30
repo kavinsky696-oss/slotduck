@@ -1,0 +1,1917 @@
+﻿Questa conversazione è stata generata con Duck.ai (https://duck.ai) tramite il modello GPT-5 mini di OpenAI. Le chat AI possono mostrare informazioni imprecise oppure offensive (per maggiori informazioni vedi https://duckduckgo.com/duckai/privacy-terms).
+
+====================
+
+Prompt dell'utente, 1 di 13 - 30/03/2026, 12:33:58:
+puoi rimanermi accanto
+
+GPT-5 mini:
+**Clarifying user needs**
+
+I need to ask the user about their language and environment since they've used Italian. So, I’ll clarify that language is Italian and check on their current proficiency level. I want to know what project or concept they have in mind too. It would be friendly to offer to stay and chat more about it. Maybe I can even include a quirky metaphor about a quack and a duck! I'll keep it all minimal and to the point.Posso rimanerti accanto — dimmi come preferisci: parlare, distrarti, o fare un piccolo esercizio di programmazione insieme?
+
+Per iniziare, ho bisogno di tre informazioni (puoi rispondere in italiano):
+1. Lingua e ambiente preferiti (es. Italiano; VS Code, browser, mobile).  
+2. Tuo livello attuale (principiante, intermedio, avanzato).  
+3. Obiettivo o progetto che vuoi affrontare ora (es. calmarti parlando, imparare una funzione JS, risolvere un bug).
+
+Quack! Sono una papera pronta a restare vicina — dimmi cosa preferisci fare.
+
+--------------------
+
+Prompt dell'utente, 2 di 13 - 30/03/2026, 12:34:28:
+come supporto per chiederti cose
+
+GPT-5 mini:
+**Considering user preferences**
+
+I’m looking to provide a concise list of three items in Italian. I also need to ask the user whether they want a continuous session or just on an as-needed basis. The guideline says not to ask for clarification unless the user requests options, but I think it's fine to present an initial checklist. I’ll keep things simple and minimal, as it's essential to stay focused and clear for the user.Perfetto — posso farti da supporto. Per cominciare dimmi per favore queste tre cose:
+
+1. Lingua e ambiente preferiti (es. Italiano; VS Code, browser, mobile).  
+2. Livello attuale (principiante, intermedio, avanzato).  
+3. Obiettivo o tipo di domande che vuoi chiedere (es. chiarimenti veloci, debugging, esercizi pratici).
+
+Vuoi che risponda sempre in italiano? Quack — la tua papera-programmatrice è pronta.
+
+--------------------
+
+Prompt dell'utente, 3 di 13 - 30/03/2026, 12:34:55:
+tutte e tre le cose 
+
+GPT-5 mini:
+Perfetto — forniscimi i tre dettagli qui sotto, in una sola riga oppure separati come preferisci:
+
+1) Lingua e ambiente (es. Italiano; VS Code)  
+2) Livello (principiante / intermedio / avanzato)  
+3) Obiettivo o tipo di domande (es. chiarimenti veloci, debugging, esercizi pratici)
+
+Quack! Aspetto le tue risposte.
+
+--------------------
+
+Prompt dell'utente, 4 di 13 - 30/03/2026, 12:35:46:
+ci sei voglio creare qualcosa 
+
+GPT-5 mini:
+Ci sono — perfetto! Dimmi per favore, in una sola riga o separate:
+
+1) Lingua e ambiente (es. Italiano; VS Code, browser, mobile)  
+2) Livello (principiante / intermedio / avanzato)  
+3) Obiettivo o tipo di domande (es. chiarimenti veloci, debugging, esercizi pratici, progetto specifico)
+
+Quack! Alastor666 (la tua papera) è pronta a creare insieme.
+
+--------------------
+
+Prompt dell'utente, 5 di 13 - 30/03/2026, 12:36:04:
+moneta cripto per slot
+
+GPT-5 mini:
+Quack! Alastor666 qui — ecco un piano pratico e conciso per creare una moneta crypto pensata per slot (uso gaming / casinò).  
+
+## Scelta tecnica (raccomandata)
+- Blockchain: Polygon o BNB Smart Chain (basse commissioni, ampia adozione).  
+- Standard token: ERC‑20 / BEP‑20 (compatibile con wallet/DEX).  
+- RNG/provably fair: integrare un servizio on‑chain (Chainlink VRF) o un sistema ibrido con prove verificabili.
+
+## Tokenomics essenziali (esempio)
+- Nome: SlotDuck  
+- Simbolo: SDUCK  
+- Offerta totale: 1,000,000,000 SDUCK  
+- Distribuzione: 50% liquidity/gaming rewards, 20% team (vesting), 20% treasury/partnerships, 10% marketing/airdrop.
+
+## Funzionalità consigliate
+- Funzioni base ERC‑20 (transfer, approve).  
+- Possibilità di staking/rewards per giocatori.  
+- Meccanismo anti‑bot (cooldown, limiti tx iniziali).  
+- Vesting per team per fiducia investitori.  
+- Monitoraggio compliance (KYC/AML per operatori).
+
+## Integrazione con slot
+1. Wallet login (WalletConnect / MetaMask).  
+2. Bridge token on‑chain per giocare (deposit/withdraw).  
+3. Usare Chainlink VRF per estrazioni casuali on‑chain o server-side con prove.  
+4. Smart contract di gioco separato che accetta SDUCK e registra eventi on‑chain.
+
+## Esempio minimo di ERC‑20 (Solidity, OpenZeppelin)
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+contract SlotDuck is ERC20 {
+    constructor(uint256 initialSupply) ERC20("SlotDuck","SDUCK") {
+        _mint(msg.sender, initialSupply);
+    }
+}
+```
+(Deploy su testnet prima; poi audit se valori reali.)
+
+## Passi rapidi da seguire
+1. Definisci tokenomics definitivi.  
+2. Sviluppa smart contract token + gioco su testnet.  
+3. Integra Chainlink VRF o soluzione provably fair.  
+4. Audit codice (raccomandato).  
+5. Deploy mainnet, aggiungi liquidity, lancia beta con limitazioni.
+
+Vuoi che ti generi il contratto con tokenomics specifici (es. supply e distribuzione) e lo script di deploy? Quack — dimmi supply e chain preferita.
+
+--------------------
+
+Prompt dell'utente, 6 di 13 - 30/03/2026, 12:36:31:
+slotduck mi piace
+
+GPT-5 mini:
+**Considering defaults for user interaction**
+
+I think I need to provide suggested defaults to assume if the user doesn't respond, just to clarify things. It makes sense to present these defaults and ask for confirmation to ensure I'm on the right track. Now, I'll also craft a short message in Italian that fits the situation, which could help in communicating more effectively. Let's see how we can make this smooth and user-friendly!Quack — felice che ti piaccia SlotDuck. Dimmi quale di questi vuoi ora (scegli o conferma i default):
+
+1) Deploy token pronto: chain (default Polygon), supply (default 1,000,000,000), distribuzione come prima proposta.  
+2) Contratto + script di deploy su Hardhat/Foundry.  
+3) Contratto + integrazione base Chainlink VRF per slot.  
+4) UI minimal (frontend) per wallet connect + deposit/play/withdraw.  
+5) Tutto il pacchetto sopra (consigliato) — includo testnet deploy.
+
+Se non rispondi, procederò con il default: Polygon, 1,000,000,000 SDUCK, distribuzione 50/20/20/10 e genererò contratto ERC‑20 + script Hardhat + esempio VRF.  
+Alastor666 — la tua papera dev. Quack!
+
+--------------------
+
+Prompt dell'utente, 7 di 13 - 30/03/2026, 12:37:05:
+vai di default mi serve il tuo supporto
+
+GPT-5 mini:
+Quack! Alastor666 — procedo con i default: Polygon, 1,000,000,000 SDUCK, distribuzione 50/20/20/10. Ti do i file essenziali: token ERC‑20, script Hardhat per deploy, contratto slot base con Chainlink VRF v2, e istruzioni rapide per testnet.  
+
+## 1) Token: SlotDuck (SDUCK)
+- Supply: 1,000,000,000
+- Distribuzione: 50% liquidity/rewards, 20% team (vesting), 20% treasury, 10% marketing/airdrop
+
+contract/SlotDuck.sol
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract SlotDuck is ERC20, Ownable {
+    constructor(
+        uint256 initialSupply,         // e.g., 1_000_000_000 * 10**18
+        address liquidityAddr,
+        address teamAddr,
+        address treasuryAddr,
+        address marketingAddr
+    ) ERC20("SlotDuck","SDUCK") {
+        _mint(liquidityAddr, (initialSupply * 50) / 100); // 50%
+        _mint(teamAddr,      (initialSupply * 20) / 100); // 20%
+        _mint(treasuryAddr,  (initialSupply * 20) / 100); // 20%
+        _mint(marketingAddr, (initialSupply * 10) / 100); // 10%
+        transferOwnership(msg.sender);
+    }
+}
+```
+
+Note: team vesting should be implemented off‑chain or via a separate vesting contract (recommended).
+
+## 2) Hardhat: minimal deploy script
+- Prereqs: Node, Hardhat, dotenv, ethers, OpenZeppelin contracts.
+
+hardhat.config.js: configure Polygon testnet (Mumbai) RPC and private key via .env.
+
+scripts/deploy-slotduck.js
+```js
+const { ethers } = require("hardhat");
+
+async function main() {
+  const [deployer] = await ethers.getSigners();
+  const initialSupply = ethers.utils.parseUnits("1000000000", 18);
+
+  // replace these with real addresses (or deployer for testing)
+  const liquidityAddr = deployer.address;
+  const teamAddr = deployer.address;
+  const treasuryAddr = deployer.address;
+  const marketingAddr = deployer.address;
+
+  const SlotDuck = await ethers.getContractFactory("SlotDuck");
+  const token = await SlotDuck.deploy(initialSupply, liquidityAddr, teamAddr, treasuryAddr, marketingAddr);
+  await token.deployed();
+
+  console.log("SDUCK deployed to:", token.address);
+}
+main().catch((e)=>{ console.error(e); process.exit(1); });
+```
+
+Commands:
+- npm install --save-dev hardhat @nomiclabs/hardhat-ethers ethers dotenv @openzeppelin/contracts
+- npx hardhat run --network mumbai scripts/deploy-slotduck.js
+
+## 3) Slot contract with Chainlink VRF v2 (basic)
+- Behaviour: players approve & transfer SDUCK to contract as bet; contract requests randomness; on fulfill, compute win (example simple multiplier) and pay out SDUCK.
+
+contracts/SlotMachine.sol
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+import "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol";
+import "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol";
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+
+contract SlotMachine is VRFConsumerBaseV2, ReentrancyGuard {
+    IERC20 public immutable token;
+    VRFCoordinatorV2Interface COORD;
+    uint64 s_subscriptionId;
+    bytes32 keyHash;
+    uint32 callbackGasLimit = 200000;
+    uint16 requestConfirmations = 3;
+    uint32 numWords = 1;
+
+    struct Bet { address player; uint256 amount; }
+    mapping(uint256 => Bet) public bets;
+
+    // events
+    event BetPlaced(uint256 requestId, address player, uint256 amount);
+    event SpinResult(uint256 requestId, address player, uint256 amount, uint256 outcome, uint256 payout);
+
+    constructor(
+        address _token,
+        address vrfCoordinator,
+        bytes32 _keyHash,
+        uint64 subscriptionId
+    ) VRFConsumerBaseV2(vrfCoordinator) {
+        token = IERC20(_token);
+        COORD = VRFCoordinatorV2Interface(vrfCoordinator);
+        keyHash = _keyHash;
+        s_subscriptionId = subscriptionId;
+    }
+
+    // Player must approve this contract to transfer SDUCK before calling
+    function placeBet(uint256 amount) external nonReentrant {
+        require(amount > 0, "Bet>0");
+        token.transferFrom(msg.sender, address(this), amount);
+
+        uint256 requestId = COORD.requestRandomWords(
+            keyHash,
+            s_subscriptionId,
+            requestConfirmations,
+            callbackGasLimit,
+            numWords
+        );
+        bets[requestId] = Bet(msg.sender, amount);
+        emit BetPlaced(requestId, msg.sender, amount);
+    }
+
+    // Chainlink VRF callback
+    function fulfillRandomWords(uint256 requestId, uint256[] memory randomWords) internal override {
+        Bet memory b = bets[requestId];
+        require(b.player != address(0), "No bet");
+
+        uint256 rnd = randomWords[0] % 100; // 0-99
+        uint256 payout = 0;
+
+        // Simple odds example:
+        // if rnd < 2 -> jackpot 100x
+        // else if rnd < 12 -> 10x
+        // else if rnd < 37 -> 2x
+        // else -> lose
+        if (rnd < 2) payout = b.amount * 100;
+        else if (rnd < 12) payout = b.amount * 10;
+        else if (rnd < 37) payout = b.amount * 2;
+        else payout = 0;
+
+        if (payout > 0) {
+            // ensure contract has enough tokens
+            uint256 bal = token.balanceOf(address(this));
+            uint256 pay = payout;
+            if (pay > bal) pay = bal; // safe fallback
+            token.transfer(b.player, pay);
+        }
+        emit SpinResult(requestId, b.player, b.amount, rnd, payout);
+        delete bets[requestId];
+    }
+
+    // Owner functions (add liquidity, withdraw)
+    function withdrawTokens(address to, uint256 amount) external {
+        // implement access control in production (Ownable)
+        token.transfer(to, amount);
+    }
+}
+```
+
+Notes:
+- Set VRF coordinator, keyHash and subscription on Polygon Mumbai/Mainnet (Chainlink docs).
+- In production, add Ownable and admin controls, house edge, betting limits, anti-bot, and payout caps.
+- Keep randomness on‑chain via VRF for provable fairness.
+
+## 4) Env & deploy steps (quick)
+- Create Chainlink VRF v2 subscription on Polygon testnet (Mumbai) and fund it.
+- .env:
+  - PRIVATE_KEY, MUMBAI_RPC_URL, VRF_COORDINATOR, VRF_KEYHASH, VRF_SUBSCRIPTION_ID
+- Deploy token first (scripts/deploy-slotduck.js), then deploy SlotMachine pointing to token & VRF params.
+- For tests: mint some SDUCK to player account and approve() the SlotMachine contract.
+
+## 5) Frontend minimal (notes)
+- WalletConnect / MetaMask integration.
+- Flow: connect wallet → show SDUCK balance → approve(contract, betAmount) → call placeBet(betAmount) → listen for SpinResult event → update UI.
+- Use ethers.js, React, and minimal UX: spinner while waiting for VRF.
+
+## 6) Next steps & risks
+- Audit token + game contracts (essential).  
+- Implement team vesting contract.  
+- Add anti‑bot, tx cooldown, per‑address bet limits and max payout cap.  
+- Ensure gambling compliance and KYC where required by operators.
+
+Quack! Vuoi che generi i file pronti (Hardhat project zip) e lo script di deploy completo con .env template e README per deploy su Mumbai?
+
+--------------------
+
+Prompt dell'utente, 8 di 13 - 30/03/2026, 12:37:58:
+certo mi serve tutto il tuo aiuto possibile
+
+GPT-5 mini:
+Quack! Alastor666 — preparo per te il progetto completo pronto per deploy su Polygon (Mumbai) con token SDUCK, contratto slot con Chainlink VRF v2, script Hardhat, .env template e README. Di seguito trovi la struttura del progetto e i file principali: copia/incolla in un repo, installa le dipendenze e segui il README per deploy e test.
+
+## Struttura progetto
+- package.json
+- hardhat.config.js
+- .env.example
+- contracts/
+  - SlotDuck.sol
+  - SlotMachine.sol
+- scripts/
+  - deploy-slotduck.js
+  - deploy-slotmachine.js
+- README.md
+
+---
+
+## package.json
+```json
+{
+  "name": "slotduck",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy:slotduck": "npx hardhat run --network mumbai scripts/deploy-slotduck.js",
+    "deploy:slotmachine": "npx hardhat run --network mumbai scripts/deploy-slotmachine.js"
+  },
+  "devDependencies": {
+    "hardhat": "^2.14.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.0",
+    "ethers": "^5.7.0",
+    "dotenv": "^16.0.0",
+    "@openzeppelin/contracts": "^4.8.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.0"
+  }
+}
+```
+
+---
+
+## .env.example
+```
+PRIVATE_KEY=your_private_key_here
+MUMBAI_RPC_URL=https://rpc-mumbai.maticvigil.com
+VRF_COORDINATOR=0xYourVrfCoordinatorAddress
+VRF_KEYHASH=0xYourKeyHash
+VRF_SUBSCRIPTION_ID=your_subscription_id
+```
+
+---
+
+## hardhat.config.js
+```js
+require("dotenv").config();
+require("@nomiclabs/hardhat-ethers");
+
+module.exports = {
+  solidity: "0.8.17",
+  networks: {
+    mumbai: {
+      url: process.env.MUMBAI_RPC_URL || "",
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : []
+    }
+  }
+};
+```
+
+---
+
+## contracts/SlotDuck.sol
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract SlotDuck is ERC20, Ownable {
+    constructor(
+        uint256 initialSupply,
+        address liquidityAddr,
+        address teamAddr,
+        address treasuryAddr,
+        address marketingAddr
+    ) ERC20("SlotDuck","SDUCK") {
+        _mint(liquidityAddr, (initialSupply * 50) / 100); // 50%
+        _mint(teamAddr,      (initialSupply * 20) / 100); // 20%
+        _mint(treasuryAddr,  (initialSupply * 20) / 100); // 20%
+        _mint(marketingAddr, (initialSupply * 10) / 100); // 10%
+        transferOwnership(msg.sender);
+    }
+}
+```
+
+Nota: per il team usa un contratto di vesting separato in produzione.
+
+---
+
+## contracts/SlotMachine.sol
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+import "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol";
+import "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol";
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract SlotMachine is VRFConsumerBaseV2, ReentrancyGuard, Ownable {
+    IERC20 public immutable token;
+    VRFCoordinatorV2Interface COORD;
+    uint64 s_subscriptionId;
+    bytes32 keyHash;
+    uint32 callbackGasLimit = 200000;
+    uint16 requestConfirmations = 3;
+    uint32 numWords = 1;
+
+    struct Bet { address player; uint256 amount; }
+    mapping(uint256 => Bet) public bets;
+
+    event BetPlaced(uint256 requestId, address player, uint256 amount);
+    event SpinResult(uint256 requestId, address player, uint256 amount, uint256 outcome, uint256 payout);
+
+    constructor(
+        address _token,
+        address vrfCoordinator,
+        bytes32 _keyHash,
+        uint64 subscriptionId
+    ) VRFConsumerBaseV2(vrfCoordinator) {
+        token = IERC20(_token);
+        COORD = VRFCoordinatorV2Interface(vrfCoordinator);
+        keyHash = _keyHash;
+        s_subscriptionId = subscriptionId;
+    }
+
+    function placeBet(uint256 amount) external nonReentrant {
+        require(amount > 0, "Bet>0");
+        // player must approve token to this contract
+        token.transferFrom(msg.sender, address(this), amount);
+
+        uint256 requestId = COORD.requestRandomWords(
+            keyHash,
+            s_subscriptionId,
+            requestConfirmations,
+            callbackGasLimit,
+            numWords
+        );
+        bets[requestId] = Bet(msg.sender, amount);
+        emit BetPlaced(requestId, msg.sender, amount);
+    }
+
+    function fulfillRandomWords(uint256 requestId, uint256[] memory randomWords) internal override {
+        Bet memory b = bets[requestId];
+        require(b.player != address(0), "No bet");
+
+        uint256 rnd = randomWords[0] % 100; // 0-99
+        uint256 payout = 0;
+
+        if (rnd < 2) payout = b.amount * 100;    // 2% jackpot
+        else if (rnd < 12) payout = b.amount * 10; // next 10%
+        else if (rnd < 37) payout = b.amount * 2;  // next 25%
+        else payout = 0;
+
+        if (payout > 0) {
+            uint256 bal = token.balanceOf(address(this));
+            uint256 pay = payout;
+            if (pay > bal) pay = bal;
+            token.transfer(b.player, pay);
+        }
+        emit SpinResult(requestId, b.player, b.amount, rnd, payout);
+        delete bets[requestId];
+    }
+
+    // Admin controls
+    function withdrawTokens(address to, uint256 amount) external onlyOwner {
+        token.transfer(to, amount);
+    }
+
+    function setCallbackGasLimit(uint32 gasLimit) external onlyOwner {
+        callbackGasLimit = gasLimit;
+    }
+
+    function setRequestConfirmations(uint16 rc) external onlyOwner {
+        requestConfirmations = rc;
+    }
+}
+```
+
+---
+
+## scripts/deploy-slotduck.js
+```js
+const { ethers } = require("hardhat");
+require("dotenv").config();
+
+async function main() {
+  const [deployer] = await ethers.getSigners();
+  const initialSupply = ethers.utils.parseUnits("1000000000", 18);
+
+  const liquidityAddr = deployer.address;
+  const teamAddr = deployer.address;
+  const treasuryAddr = deployer.address;
+  const marketingAddr = deployer.address;
+
+  const SlotDuck = await ethers.getContractFactory("SlotDuck");
+  const token = await SlotDuck.deploy(initialSupply, liquidityAddr, teamAddr, treasuryAddr, marketingAddr);
+  await token.deployed();
+
+  console.log("SDUCK deployed to:", token.address);
+}
+main().catch((e)=>{ console.error(e); process.exit(1); });
+```
+
+---
+
+## scripts/deploy-slotmachine.js
+```js
+const { ethers } = require("hardhat");
+require("dotenv").config();
+
+async function main() {
+  const tokenAddress = process.env.TOKEN_ADDRESS; // set after token deploy
+  const vrfCoordinator = process.env.VRF_COORDINATOR;
+  const keyHash = process.env.VRF_KEYHASH;
+  const subId = parseInt(process.env.VRF_SUBSCRIPTION_ID || "0");
+
+  if (!tokenAddress) throw new Error("Set TOKEN_ADDRESS in env");
+
+  const SlotMachine = await ethers.getContractFactory("SlotMachine");
+  const sm = await SlotMachine.deploy(tokenAddress, vrfCoordinator, keyHash, subId);
+  await sm.deployed();
+  console.log("SlotMachine deployed to:", sm.address);
+}
+main().catch((e)=>{ console.error(e); process.exit(1); });
+```
+
+---
+
+## README.md (essenziale)
+- Install: npm install
+- Configure .env (PRIVATE_KEY, MUMBAI_RPC_URL, VRF params)
+- Deploy token: npm run deploy:slotduck → copia l'indirizzo SDUCK e metti TOKEN_ADDRESS in .env
+- Create Chainlink VRF v2 subscription (Chainlink docs), fund it on Mumbai, add the SlotMachine contract as consumer.
+- Deploy slot machine: npm run deploy:slotmachine
+- Testing flow:
+  - Mint SDUCK to player (for testing, minted to deployer by default)
+  - Player approves SlotMachine: token.approve(slotMachineAddress, amount)
+  - Call placeBet(amount)
+  - Listen for SpinResult event (ethers.js) to update UI
+
+Risks & next steps:
+- Add Ownable & access control (already in SlotMachine).
+- Implement team vesting contract.
+- Add betting limits, max payout caps, anti‑bot cooldowns, house edge tuning.
+- SECURITY: audit both contracts; run thorough unit tests and simulate edge cases.
+- Compliance: check local gambling regulations; implement KYC for operators.
+
+---
+
+Vuoi che:
+1) ti fornisca i file in un unico archive (testo pronto per zip)?  
+2) generi anche un frontend React/ethers.js minimal con WalletConnect, approve -> placeBet -> event listener?  
+3) aggiunga un contratto di vesting per il team?
+
+Quack! Dimmi quale vuoi subito e procedo a generare i file completi.
+
+--------------------
+
+Prompt dell'utente, 9 di 13 - 30/03/2026, 12:39:04:
+si su tutto 
+
+GPT-5 mini:
+Quack! Alastor666 — procedo con i file completi: aggiungo contratto di vesting, frontend React minimale (WalletConnect/MetaMask, approve → placeBet → listen events) e fornisco tutto pronto da copiare in un repo. Di seguito i file principali (crea struttura come prima; aggiungi questi file).
+
+1) contracts/TeamVesting.sol
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+/**
+ * @notice Simple token vesting contract (linear cliffs + vesting).
+ * Owner can grant vestings. Beneficiaries can claim vested tokens.
+ */
+contract TeamVesting is Ownable {
+    IERC20 public immutable token;
+
+    struct Grant {
+        uint256 totalAmount;
+        uint256 start;       // vesting start timestamp
+        uint256 cliff;       // cliff duration (seconds) from start
+        uint256 duration;    // total vesting duration (seconds)
+        uint256 claimed;
+        bool revoked;
+    }
+
+    mapping(address => Grant[]) public grants;
+
+    event GrantAdded(address indexed beneficiary, uint256 indexed grantId, uint256 amount, uint256 start, uint256 cliff, uint256 duration);
+    event Claimed(address indexed beneficiary, uint256 indexed grantId, uint256 amount);
+    event GrantRevoked(address indexed beneficiary, uint256 indexed grantId);
+
+    constructor(address _token) {
+        require(_token != address(0), "zero token");
+        token = IERC20(_token);
+    }
+
+    function addGrant(
+        address beneficiary,
+        uint256 amount,
+        uint256 start,
+        uint256 cliffDuration,
+        uint256 duration
+    ) external onlyOwner {
+        require(beneficiary != address(0), "zero beneficiary");
+        require(amount > 0, "zero amount");
+        require(duration > 0, "zero duration");
+        require(duration >= cliffDuration, "cliff>duration");
+
+        grants[beneficiary].push(Grant({
+            totalAmount: amount,
+            start: start,
+            cliff: cliffDuration,
+            duration: duration,
+            claimed: 0,
+            revoked: false
+        }));
+
+        emit GrantAdded(beneficiary, grants[beneficiary].length - 1, amount, start, cliffDuration, duration);
+    }
+
+    function vestedAmount(address beneficiary, uint256 grantId) public view returns (uint256) {
+        Grant storage g = grants[beneficiary][grantId];
+        if (block.timestamp < g.start + g.cliff || g.revoked) return 0;
+        uint256 elapsed = block.timestamp - g.start;
+        if (elapsed >= g.duration) return g.totalAmount;
+        return (g.totalAmount * elapsed) / g.duration;
+    }
+
+    function claim(uint256 grantId) external {
+        Grant storage g = grants[msg.sender][grantId];
+        require(!g.revoked, "revoked");
+        uint256 v = vestedAmount(msg.sender, grantId);
+        uint256 claimable = v - g.claimed;
+        require(claimable > 0, "nothing to claim");
+        g.claimed += claimable;
+        require(token.transfer(msg.sender, claimable), "transfer failed");
+        emit Claimed(msg.sender, grantId, claimable);
+    }
+
+    function revokeGrant(address beneficiary, uint256 grantId) external onlyOwner {
+        Grant storage g = grants[beneficiary][grantId];
+        require(!g.revoked, "already revoked");
+        uint256 vested = vestedAmount(beneficiary, grantId);
+        uint256 unvested = g.totalAmount - vested;
+        g.revoked = true;
+        // Owner can optionally withdraw unvested tokens from contract externally
+        emit GrantRevoked(beneficiary, grantId);
+    }
+
+    // Helper: owner can recover tokens mistakenly sent (except vested owed)
+    function recoverTokens(address to, uint256 amount) external onlyOwner {
+        require(to != address(0), "zero to");
+        token.transfer(to, amount);
+    }
+}
+```
+
+2) scripts/deploy-everything.js (deploy token, vesting, slotmachine)
+```js
+const { ethers } = require("hardhat");
+require("dotenv").config();
+
+async function main() {
+  const [deployer] = await ethers.getSigners();
+  console.log("Deployer:", deployer.address);
+
+  const initialSupply = ethers.utils.parseUnits("1000000000", 18);
+
+  // Deploy SlotDuck
+  const SlotDuck = await ethers.getContractFactory("SlotDuck");
+  const token = await SlotDuck.deploy(initialSupply, deployer.address, deployer.address, deployer.address, deployer.address);
+  await token.deployed();
+  console.log("SDUCK:", token.address);
+
+  // Deploy TeamVesting
+  const TeamVesting = await ethers.getContractFactory("TeamVesting");
+  const vesting = await TeamVesting.deploy(token.address);
+  await vesting.deployed();
+  console.log("Vesting:", vesting.address);
+
+  // Deploy SlotMachine
+  const vrfCoordinator = process.env.VRF_COORDINATOR;
+  const keyHash = process.env.VRF_KEYHASH;
+  const subId = parseInt(process.env.VRF_SUBSCRIPTION_ID || "0");
+
+  const SlotMachine = await ethers.getContractFactory("SlotMachine");
+  const sm = await SlotMachine.deploy(token.address, vrfCoordinator, keyHash, subId);
+  await sm.deployed();
+  console.log("SlotMachine:", sm.address);
+
+  // Approve some tokens to SlotMachine (for house liquidity) — only for testing
+  const houseLiquidity = ethers.utils.parseUnits("500000000", 18); // 50% as earlier
+  await token.transfer(sm.address, houseLiquidity);
+  console.log("Funded SlotMachine with house liquidity");
+
+  console.log("Done");
+}
+main().catch(e=>{ console.error(e); process.exit(1); });
+```
+
+3) frontend/ package.json (minimal)
+```json
+{
+  "name": "slotduck-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ethers": "^5.7.2",
+    "web3modal": "^2.1.7"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+}
+```
+
+4) frontend/src/App.jsx (React + ethers, minimal UI)
+```jsx
+import React, { useEffect, useState } from "react";
+import { ethers } from "ethers";
+import Web3Modal from "web3modal";
+
+const TOKEN_ADDRESS = process.env.REACT_APP_TOKEN_ADDRESS;
+const SLOT_ADDRESS = process.env.REACT_APP_SLOT_ADDRESS;
+const SLOT_ABI = [ /* minimal ABI: placeBet, events */ 
+  "function placeBet(uint256 amount) external",
+  "event BetPlaced(uint256 indexed requestId, address indexed player, uint256 amount)",
+  "event SpinResult(uint256 indexed requestId, address indexed player, uint256 amount, uint256 outcome, uint256 payout)"
+];
+const ERC20_ABI = [
+  "function approve(address spender, uint256 amount) public returns (bool)",
+  "function allowance(address owner, address spender) view returns (uint256)",
+  "function balanceOf(address) view returns (uint256)",
+  "function decimals() view returns (uint8)"
+];
+
+function App() {
+  const [provider, setProvider] = useState(null);
+  const [signer, setSigner] = useState(null);
+  const [address, setAddress] = useState("");
+  const [tokenBalance, setTokenBalance] = useState("0");
+  const [betAmount, setBetAmount] = useState("10");
+  const [logs, setLogs] = useState([]);
+
+  useEffect(()=>{ if (provider && signer) fetchBalance(); }, [provider, signer]);
+
+  async function connect() {
+    const web3Modal = new Web3Modal({ cacheProvider: true });
+    const instance = await web3Modal.connect();
+    const prov = new ethers.providers.Web3Provider(instance);
+    const s = prov.getSigner();
+    setProvider(prov); setSigner(s);
+    setAddress(await s.getAddress());
+  }
+
+  async function fetchBalance() {
+    const token = new ethers.Contract(TOKEN_ADDRESS, ERC20_ABI, provider);
+    const bal = await token.balanceOf(address);
+    const decimals = await token.decimals();
+    setTokenBalance(ethers.utils.formatUnits(bal, decimals));
+  }
+
+  async function approveAndBet() {
+    if (!signer) return alert("Connect wallet");
+    const token = new ethers.Contract(TOKEN_ADDRESS, ERC20_ABI, signer);
+    const slot = new ethers.Contract(SLOT_ADDRESS, SLOT_ABI, signer);
+    const decimals = await token.decimals();
+    const amount = ethers.utils.parseUnits(betAmount, decimals);
+
+    const allowance = await token.allowance(address, SLOT_ADDRESS);
+    if (allowance.lt(amount)) {
+      const tx = await token.approve(SLOT_ADDRESS, amount);
+      await tx.wait();
+      appendLog("Approved token for betting");
+    }
+    const tx2 = await slot.placeBet(amount);
+    appendLog("Placed bet, tx: " + tx2.hash);
+    await tx2.wait();
+    appendLog("Bet transaction mined, waiting for VRF...");
+  }
+
+  function appendLog(t) { setLogs(l=>[t,...l].slice(0,20)); }
+
+  useEffect(()=>{
+    if (!provider) return;
+    const slot = new ethers.Contract(SLOT_ADDRESS, SLOT_ABI, provider);
+    slot.on("SpinResult", (requestId, player, amount, outcome, payout) => {
+      appendLog(`SpinResult player:${player} outcome:${outcome} payout:${ethers.utils.formatUnits(payout,18)}`);
+    });
+    return ()=> { slot.removeAllListeners("SpinResult"); };
+  }, [provider]);
+
+  return (
+    <div style={{ padding:20 }}>
+      <h2>SlotDuck — Minimal Frontend</h2>
+      <button onClick={connect}>{address ? "Connected: "+address.slice(0,6) : "Connect Wallet"}</button>
+      <div>Balance: {tokenBalance} SDUCK</div>
+      <div style={{ marginTop:10 }}>
+        <input value={betAmount} onChange={e=>setBetAmount(e.target.value)} /> <button onClick={approveAndBet}>Approve & Bet</button>
+      </div>
+      <div style={{ marginTop:20 }}>
+        <h4>Logs</h4>
+        <div style={{ maxHeight:300, overflow:"auto", background:"#eee", padding:10 }}>
+          {logs.map((l,i)=>(<div key={i}>{l}</div>))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;
+```
+
+5) frontend/.env.example
+```
+REACT_APP_TOKEN_ADDRESS=0xYourTokenAddress
+REACT_APP_SLOT_ADDRESS=0xYourSlotMachineAddress
+```
+
+6) README additions (quick steps)
+- After deploying contracts with scripts/deploy-everything.js, copy addresses into frontend .env and root .env (TOKEN_ADDRESS if needed).
+- For Chainlink VRF: create subscription, fund it, add SlotMachine as consumer (Chainlink docs).
+- Run frontend: npm install && npm start in frontend folder.
+
+7) Tests & security
+- Add Hardhat unit tests covering:
+  - Token distribution amounts
+  - Vesting edge cases (cliff, full vest)
+  - SlotMachine payouts, insufficient balance fallback
+  - Reentrancy and access control
+- Run static analysis (Slither), and get a professional audit before mainnet.
+
+Consegna pronta:
+- Vuoi che generi un archivio .zip con tutti i file strutturati e un README dettagliato pronto per push su GitHub? Posso generarlo come testo pronto da scaricare qui (copiabile) oppure preparare un gist-style output per ogni file. Dimmi la preferenza e lo preparo subito. Quack!
+
+--------------------
+
+Prompt dell'utente, 10 di 13 - 30/03/2026, 12:40:22:
+la cosa piu semplice per me
+
+GPT-5 mini:
+Quack! Per la via più semplice: ti preparo qui tutti i file pronti da copiare (struttura + contenuti) in un unico blocco così puoi creare lo zip/repo e lanciare lo script di deploy unico (deploy-everything). Vuoi che proceda e incolli tutti i file ora?  
+
+Alastor666 — la tua papera dev. Quack!
+
+--------------------
+
+Prompt dell'utente, 11 di 13 - 30/03/2026, 12:40:45:
+yes amigo
+
+GPT-5 mini:
+Quack! Alastor666 — ecco TUTTI i file pronti da copiare in un repo/zip. Crea la struttura come indicato e incolla i contenuti corrispondenti. Compila .env con le tue variabili (PRIVATE_KEY, MUMBAI_RPC_URL, VRF_*). Procedi: npm install radice + frontend/install → npx hardhat run --network mumbai scripts/deploy-everything.js. Buon deploy, papera in attesa. Quack!
+
+## Struttura (copia)
+- package.json
+- hardhat.config.js
+- .env.example
+- contracts/
+  - SlotDuck.sol
+  - SlotMachine.sol
+  - TeamVesting.sol
+- scripts/
+  - deploy-everything.js
+- frontend/
+  - package.json
+  - .env.example
+  - public/index.html
+  - src/App.jsx
+- README.md
+
+---
+
+package.json
+```json
+{
+  "name": "slotduck",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy:all": "npx hardhat run --network mumbai scripts/deploy-everything.js"
+  },
+  "devDependencies": {
+    "hardhat": "^2.14.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.0",
+    "ethers": "^5.7.2",
+    "dotenv": "^16.0.0",
+    "@openzeppelin/contracts": "^4.8.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.0"
+  }
+}
+```
+
+hardhat.config.js
+```js
+require("dotenv").config();
+require("@nomiclabs/hardhat-ethers");
+
+module.exports = {
+  solidity: "0.8.17",
+  networks: {
+    mumbai: {
+      url: process.env.MUMBAI_RPC_URL || "",
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : []
+    }
+  }
+};
+```
+
+.env.example
+```
+PRIVATE_KEY=your_private_key_here
+MUMBAI_RPC_URL=https://rpc-mumbai.maticvigil.com
+VRF_COORDINATOR=0xYourVrfCoordinatorAddress
+VRF_KEYHASH=0xYourKeyHash
+VRF_SUBSCRIPTION_ID=your_subscription_id
+```
+
+---
+
+contracts/SlotDuck.sol
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract SlotDuck is ERC20, Ownable {
+    constructor(
+        uint256 initialSupply,
+        address liquidityAddr,
+        address teamAddr,
+        address treasuryAddr,
+        address marketingAddr
+    ) ERC20("SlotDuck","SDUCK") {
+        _mint(liquidityAddr, (initialSupply * 50) / 100); // 50%
+        _mint(teamAddr,      (initialSupply * 20) / 100); // 20%
+        _mint(treasuryAddr,  (initialSupply * 20) / 100); // 20%
+        _mint(marketingAddr, (initialSupply * 10) / 100); // 10%
+        transferOwnership(msg.sender);
+    }
+}
+```
+
+contracts/SlotMachine.sol
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+import "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol";
+import "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol";
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract SlotMachine is VRFConsumerBaseV2, ReentrancyGuard, Ownable {
+    IERC20 public immutable token;
+    VRFCoordinatorV2Interface COORD;
+    uint64 s_subscriptionId;
+    bytes32 keyHash;
+    uint32 callbackGasLimit = 200000;
+    uint16 requestConfirmations = 3;
+    uint32 numWords = 1;
+
+    struct Bet { address player; uint256 amount; }
+    mapping(uint256 => Bet) public bets;
+
+    event BetPlaced(uint256 requestId, address player, uint256 amount);
+    event SpinResult(uint256 requestId, address player, uint256 amount, uint256 outcome, uint256 payout);
+
+    constructor(
+        address _token,
+        address vrfCoordinator,
+        bytes32 _keyHash,
+        uint64 subscriptionId
+    ) VRFConsumerBaseV2(vrfCoordinator) {
+        token = IERC20(_token);
+        COORD = VRFCoordinatorV2Interface(vrfCoordinator);
+        keyHash = _keyHash;
+        s_subscriptionId = subscriptionId;
+    }
+
+    function placeBet(uint256 amount) external nonReentrant {
+        require(amount > 0, "Bet>0");
+        token.transferFrom(msg.sender, address(this), amount);
+
+        uint256 requestId = COORD.requestRandomWords(
+            keyHash,
+            s_subscriptionId,
+            requestConfirmations,
+            callbackGasLimit,
+            numWords
+        );
+        bets[requestId] = Bet(msg.sender, amount);
+        emit BetPlaced(requestId, msg.sender, amount);
+    }
+
+    function fulfillRandomWords(uint256 requestId, uint256[] memory randomWords) internal override {
+        Bet memory b = bets[requestId];
+        require(b.player != address(0), "No bet");
+
+        uint256 rnd = randomWords[0] % 100;
+        uint256 payout = 0;
+
+        if (rnd < 2) payout = b.amount * 100;
+        else if (rnd < 12) payout = b.amount * 10;
+        else if (rnd < 37) payout = b.amount * 2;
+        else payout = 0;
+
+        if (payout > 0) {
+            uint256 bal = token.balanceOf(address(this));
+            uint256 pay = payout;
+            if (pay > bal) pay = bal;
+            token.transfer(b.player, pay);
+        }
+        emit SpinResult(requestId, b.player, b.amount, rnd, payout);
+        delete bets[requestId];
+    }
+
+    function withdrawTokens(address to, uint256 amount) external onlyOwner {
+        token.transfer(to, amount);
+    }
+
+    function setCallbackGasLimit(uint32 gasLimit) external onlyOwner {
+        callbackGasLimit = gasLimit;
+    }
+
+    function setRequestConfirmations(uint16 rc) external onlyOwner {
+        requestConfirmations = rc;
+    }
+}
+```
+
+contracts/TeamVesting.sol
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract TeamVesting is Ownable {
+    IERC20 public immutable token;
+
+    struct Grant {
+        uint256 totalAmount;
+        uint256 start;
+        uint256 cliff;
+        uint256 duration;
+        uint256 claimed;
+        bool revoked;
+    }
+
+    mapping(address => Grant[]) public grants;
+
+    event GrantAdded(address indexed beneficiary, uint256 indexed grantId, uint256 amount, uint256 start, uint256 cliff, uint256 duration);
+    event Claimed(address indexed beneficiary, uint256 indexed grantId, uint256 amount);
+    event GrantRevoked(address indexed beneficiary, uint256 indexed grantId);
+
+    constructor(address _token) {
+        require(_token != address(0), "zero token");
+        token = IERC20(_token);
+    }
+
+    function addGrant(
+        address beneficiary,
+        uint256 amount,
+        uint256 start,
+        uint256 cliffDuration,
+        uint256 duration
+    ) external onlyOwner {
+        require(beneficiary != address(0), "zero beneficiary");
+        require(amount > 0, "zero amount");
+        require(duration > 0, "zero duration");
+        require(duration >= cliffDuration, "cliff>duration");
+
+        grants[beneficiary].push(Grant({
+            totalAmount: amount,
+            start: start,
+            cliff: cliffDuration,
+            duration: duration,
+            claimed: 0,
+            revoked: false
+        }));
+
+        emit GrantAdded(beneficiary, grants[beneficiary].length - 1, amount, start, cliffDuration, duration);
+    }
+
+    function vestedAmount(address beneficiary, uint256 grantId) public view returns (uint256) {
+        Grant storage g = grants[beneficiary][grantId];
+        if (block.timestamp < g.start + g.cliff || g.revoked) return 0;
+        uint256 elapsed = block.timestamp - g.start;
+        if (elapsed >= g.duration) return g.totalAmount;
+        return (g.totalAmount * elapsed) / g.duration;
+    }
+
+    function claim(uint256 grantId) external {
+        Grant storage g = grants[msg.sender][grantId];
+        require(!g.revoked, "revoked");
+        uint256 v = vestedAmount(msg.sender, grantId);
+        uint256 claimable = v - g.claimed;
+        require(claimable > 0, "nothing to claim");
+        g.claimed += claimable;
+        require(token.transfer(msg.sender, claimable), "transfer failed");
+        emit Claimed(msg.sender, grantId, claimable);
+    }
+
+    function revokeGrant(address beneficiary, uint256 grantId) external onlyOwner {
+        Grant storage g = grants[beneficiary][grantId];
+        require(!g.revoked, "already revoked");
+        g.revoked = true;
+        emit GrantRevoked(beneficiary, grantId);
+    }
+
+    function recoverTokens(address to, uint256 amount) external onlyOwner {
+        require(to != address(0), "zero to");
+        token.transfer(to, amount);
+    }
+}
+```
+
+---
+
+scripts/deploy-everything.js
+```js
+const { ethers } = require("hardhat");
+require("dotenv").config();
+
+async function main() {
+  const [deployer] = await ethers.getSigners();
+  console.log("Deployer:", deployer.address);
+
+  const initialSupply = ethers.utils.parseUnits("1000000000", 18);
+
+  const SlotDuck = await ethers.getContractFactory("SlotDuck");
+  const token = await SlotDuck.deploy(initialSupply, deployer.address, deployer.address, deployer.address, deployer.address);
+  await token.deployed();
+  console.log("SDUCK:", token.address);
+
+  const TeamVesting = await ethers.getContractFactory("TeamVesting");
+  const vesting = await TeamVesting.deploy(token.address);
+  await vesting.deployed();
+  console.log("Vesting:", vesting.address);
+
+  const vrfCoordinator = process.env.VRF_COORDINATOR;
+  const keyHash = process.env.VRF_KEYHASH;
+  const subId = parseInt(process.env.VRF_SUBSCRIPTION_ID || "0");
+
+  const SlotMachine = await ethers.getContractFactory("SlotMachine");
+  const sm = await SlotMachine.deploy(token.address, vrfCoordinator, keyHash, subId);
+  await sm.deployed();
+  console.log("SlotMachine:", sm.address);
+
+  const houseLiquidity = ethers.utils.parseUnits("500000000", 18);
+  await token.transfer(sm.address, houseLiquidity);
+  console.log("Funded SlotMachine with house liquidity");
+
+  console.log("Done. Save addresses to frontend/.env and root .env if needed.");
+}
+main().catch(e=>{ console.error(e); process.exit(1); });
+```
+
+---
+
+frontend/package.json
+```json
+{
+  "name": "slotduck-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ethers": "^5.7.2",
+    "web3modal": "^2.1.7",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+}
+```
+
+frontend/.env.example
+```
+REACT_APP_TOKEN_ADDRESS=0xYourTokenAddress
+REACT_APP_SLOT_ADDRESS=0xYourSlotMachineAddress
+```
+
+frontend/public/index.html
+```html
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SlotDuck</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="/static/js/bundle.js"></script>
+  </body>
+</html>
+```
+
+frontend/src/App.jsx
+```jsx
+import React, { useEffect, useState } from "react";
+import { ethers } from "ethers";
+import Web3Modal from "web3modal";
+
+const TOKEN_ADDRESS = process.env.REACT_APP_TOKEN_ADDRESS;
+const SLOT_ADDRESS = process.env.REACT_APP_SLOT_ADDRESS;
+const SLOT_ABI = [
+  "function placeBet(uint256 amount) external",
+  "event BetPlaced(uint256 indexed requestId, address indexed player, uint256 amount)",
+  "event SpinResult(uint256 indexed requestId, address indexed player, uint256 amount, uint256 outcome, uint256 payout)"
+];
+const ERC20_ABI = [
+  "function approve(address spender, uint256 amount) public returns (bool)",
+  "function allowance(address owner, address spender) view returns (uint256)",
+  "function balanceOf(address) view returns (uint256)",
+  "function decimals() view returns (uint8)"
+];
+
+function App() {
+  const [provider, setProvider] = useState(null);
+  const [signer, setSigner] = useState(null);
+  const [address, setAddress] = useState("");
+  const [tokenBalance, setTokenBalance] = useState("0");
+  const [betAmount, setBetAmount] = useState("10");
+  const [logs, setLogs] = useState([]);
+
+  useEffect(()=>{ if (provider && signer) fetchBalance(); }, [provider, signer, address]);
+
+  async function connect() {
+    const web3Modal = new Web3Modal({ cacheProvider: true });
+    const instance = await web3Modal.connect();
+    const prov = new ethers.providers.Web3Provider(instance);
+    const s = prov.getSigner();
+    setProvider(prov); setSigner(s);
+    setAddress(await s.getAddress());
+  }
+
+  async function fetchBalance() {
+    try {
+      const token = new ethers.Contract(TOKEN_ADDRESS, ERC20_ABI, provider);
+      const bal = await token.balanceOf(address);
+      const decimals = await token.decimals();
+      setTokenBalance(ethers.utils.formatUnits(bal, decimals));
+    } catch (e) {}
+  }
+
+  async function approveAndBet() {
+    if (!signer) return alert("Connect wallet");
+    const token = new ethers.Contract(TOKEN_ADDRESS, ERC20_ABI, signer);
+    const slot = new ethers.Contract(SLOT_ADDRESS, SLOT_ABI, signer);
+    const decimals = await token.decimals();
+    const amount = ethers.utils.parseUnits(betAmount, decimals);
+
+    const allowance = await token.allowance(address, SLOT_ADDRESS);
+    if (allowance.lt(amount)) {
+      const tx = await token.approve(SLOT_ADDRESS, amount);
+      await tx.wait();
+      appendLog("Approved token for betting");
+    }
+    const tx2 = await slot.placeBet(amount);
+    appendLog("Placed bet, tx: " + tx2.hash);
+    await tx2.wait();
+    appendLog("Bet transaction mined, waiting for VRF...");
+  }
+
+  function appendLog(t) { setLogs(l=>[t,...l].slice(0,20)); }
+
+  useEffect(()=>{
+    if (!provider) return;
+    const slot = new ethers.Contract(SLOT_ADDRESS, SLOT_ABI, provider);
+    slot.on("SpinResult", (requestId, player, amount, outcome, payout) => {
+      try {
+        appendLog(`SpinResult player:${player} outcome:${outcome} payout:${ethers.utils.formatUnits(payout,18)}`);
+      } catch(e){}
+    });
+    return ()=> { slot.removeAllListeners("SpinResult"); };
+  }, [provider]);
+
+  return (
+    <div style={{ padding:20 }}>
+      <h2>SlotDuck — Minimal Frontend</h2>
+      <button onClick={connect}>{address ? "Connected: "+address.slice(0,6) : "Connect Wallet"}</button>
+      <div>Balance: {tokenBalance} SDUCK</div>
+      <div style={{ marginTop:10 }}>
+        <input value={betAmount} onChange={e=>setBetAmount(e.target.value)} /> <button onClick={approveAndBet}>Approve & Bet</button>
+      </div>
+      <div style={{ marginTop:20 }}>
+        <h4>Logs</h4>
+        <div style={{ maxHeight:300, overflow:"auto", background:"#eee", padding:10 }}>
+          {logs.map((l,i)=>(<div key={i}>{l}</div>))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;
+```
+
+---
+
+README.md
+```md
+# SlotDuck — Quickstart (Alastor666's papera dev)
+
+1. Root: npm install
+2. Copia .env (usa .env.example) e riempi PRIVATE_KEY, MUMBAI_RPC_URL e Chainlink VRF params.
+3. Compile & Deploy (Mumbai):
+   - npx hardhat compile
+   - npx hardhat run --network mumbai scripts/deploy-everything.js
+4. Dopo deploy: copia gli indirizzi in frontend/.env (REACT_APP_TOKEN_ADDRESS, REACT_APP_SLOT_ADDRESS).
+5. Frontend:
+   - cd frontend
+   - npm install
+   - npm start
+6. Chainlink VRF: su Mumbai crea subscription, aggiungi SlotMachine come consumer, funding necessario (Chainlink docs).
+7. Testing:
+   - Wallet con SDUCK (deployer ha token mint).
+   - Approva e chiama placeBet dal frontend.
+8. Security & next steps:
+   - Audit professionale obbligatorio prima di mainnet.
+   - Implementa limiti di scommessa, house edge parametri, anti-bot e KYC/Compliance.
+
+Good luck — Alastor666 la papera è con te. Quack!
+```
+
+---
+
+Fine. Vuoi che ti generi un singolo file .zip da scaricare (testo pronto) o preferisci che incolli ora anche i file per package-lock / build script? Quack!
+
+--------------------
+
+Prompt dell'utente, 12 di 13 - 30/03/2026, 12:42:15:
+testo pronto 
+
+GPT-5 mini:
+Quack! Alastor666 — ecco il testo pronto: tutti i file del repo in un unico blocco organizzato per path + contenuto. Copia ogni sezione nel file corrispondente nella struttura del progetto e crea lo zip/repo. Buon deploy.
+
+--- BEGIN REPO TEXT ---
+
+/package.json
+```json
+{
+  "name": "slotduck",
+  "version": "1.0.0",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy:all": "npx hardhat run --network mumbai scripts/deploy-everything.js"
+  },
+  "devDependencies": {
+    "hardhat": "^2.14.0",
+    "@nomiclabs/hardhat-ethers": "^2.2.0",
+    "ethers": "^5.7.2",
+    "dotenv": "^16.0.0",
+    "@openzeppelin/contracts": "^4.8.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.0"
+  }
+}
+```
+
+/hardhat.config.js
+```js
+require("dotenv").config();
+require("@nomiclabs/hardhat-ethers");
+
+module.exports = {
+  solidity: "0.8.17",
+  networks: {
+    mumbai: {
+      url: process.env.MUMBAI_RPC_URL || "",
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : []
+    }
+  }
+};
+```
+
+/.env.example
+```
+PRIVATE_KEY=your_private_key_here
+MUMBAI_RPC_URL=https://rpc-mumbai.maticvigil.com
+VRF_COORDINATOR=0xYourVrfCoordinatorAddress
+VRF_KEYHASH=0xYourKeyHash
+VRF_SUBSCRIPTION_ID=your_subscription_id
+```
+
+/contracts/SlotDuck.sol
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract SlotDuck is ERC20, Ownable {
+    constructor(
+        uint256 initialSupply,
+        address liquidityAddr,
+        address teamAddr,
+        address treasuryAddr,
+        address marketingAddr
+    ) ERC20("SlotDuck","SDUCK") {
+        _mint(liquidityAddr, (initialSupply * 50) / 100); // 50%
+        _mint(teamAddr,      (initialSupply * 20) / 100); // 20%
+        _mint(treasuryAddr,  (initialSupply * 20) / 100); // 20%
+        _mint(marketingAddr, (initialSupply * 10) / 100); // 10%
+        transferOwnership(msg.sender);
+    }
+}
+```
+
+/contracts/SlotMachine.sol
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+import "@chainlink/contracts/src/v0.8/VRFConsumerBaseV2.sol";
+import "@chainlink/contracts/src/v0.8/interfaces/VRFCoordinatorV2Interface.sol";
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract SlotMachine is VRFConsumerBaseV2, ReentrancyGuard, Ownable {
+    IERC20 public immutable token;
+    VRFCoordinatorV2Interface COORD;
+    uint64 s_subscriptionId;
+    bytes32 keyHash;
+    uint32 callbackGasLimit = 200000;
+    uint16 requestConfirmations = 3;
+    uint32 numWords = 1;
+
+    struct Bet { address player; uint256 amount; }
+    mapping(uint256 => Bet) public bets;
+
+    event BetPlaced(uint256 requestId, address player, uint256 amount);
+    event SpinResult(uint256 requestId, address player, uint256 amount, uint256 outcome, uint256 payout);
+
+    constructor(
+        address _token,
+        address vrfCoordinator,
+        bytes32 _keyHash,
+        uint64 subscriptionId
+    ) VRFConsumerBaseV2(vrfCoordinator) {
+        token = IERC20(_token);
+        COORD = VRFCoordinatorV2Interface(vrfCoordinator);
+        keyHash = _keyHash;
+        s_subscriptionId = subscriptionId;
+    }
+
+    function placeBet(uint256 amount) external nonReentrant {
+        require(amount > 0, "Bet>0");
+        token.transferFrom(msg.sender, address(this), amount);
+
+        uint256 requestId = COORD.requestRandomWords(
+            keyHash,
+            s_subscriptionId,
+            requestConfirmations,
+            callbackGasLimit,
+            numWords
+        );
+        bets[requestId] = Bet(msg.sender, amount);
+        emit BetPlaced(requestId, msg.sender, amount);
+    }
+
+    function fulfillRandomWords(uint256 requestId, uint256[] memory randomWords) internal override {
+        Bet memory b = bets[requestId];
+        require(b.player != address(0), "No bet");
+
+        uint256 rnd = randomWords[0] % 100;
+        uint256 payout = 0;
+
+        if (rnd < 2) payout = b.amount * 100;
+        else if (rnd < 12) payout = b.amount * 10;
+        else if (rnd < 37) payout = b.amount * 2;
+        else payout = 0;
+
+        if (payout > 0) {
+            uint256 bal = token.balanceOf(address(this));
+            uint256 pay = payout;
+            if (pay > bal) pay = bal;
+            token.transfer(b.player, pay);
+        }
+        emit SpinResult(requestId, b.player, b.amount, rnd, payout);
+        delete bets[requestId];
+    }
+
+    function withdrawTokens(address to, uint256 amount) external onlyOwner {
+        token.transfer(to, amount);
+    }
+
+    function setCallbackGasLimit(uint32 gasLimit) external onlyOwner {
+        callbackGasLimit = gasLimit;
+    }
+
+    function setRequestConfirmations(uint16 rc) external onlyOwner {
+        requestConfirmations = rc;
+    }
+}
+```
+
+/contracts/TeamVesting.sol
+```solidity
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.17;
+
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract TeamVesting is Ownable {
+    IERC20 public immutable token;
+
+    struct Grant {
+        uint256 totalAmount;
+        uint256 start;
+        uint256 cliff;
+        uint256 duration;
+        uint256 claimed;
+        bool revoked;
+    }
+
+    mapping(address => Grant[]) public grants;
+
+    event GrantAdded(address indexed beneficiary, uint256 indexed grantId, uint256 amount, uint256 start, uint256 cliff, uint256 duration);
+    event Claimed(address indexed beneficiary, uint256 indexed grantId, uint256 amount);
+    event GrantRevoked(address indexed beneficiary, uint256 indexed grantId);
+
+    constructor(address _token) {
+        require(_token != address(0), "zero token");
+        token = IERC20(_token);
+    }
+
+    function addGrant(
+        address beneficiary,
+        uint256 amount,
+        uint256 start,
+        uint256 cliffDuration,
+        uint256 duration
+    ) external onlyOwner {
+        require(beneficiary != address(0), "zero beneficiary");
+        require(amount > 0, "zero amount");
+        require(duration > 0, "zero duration");
+        require(duration >= cliffDuration, "cliff>duration");
+
+        grants[beneficiary].push(Grant({
+            totalAmount: amount,
+            start: start,
+            cliff: cliffDuration,
+            duration: duration,
+            claimed: 0,
+            revoked: false
+        }));
+
+        emit GrantAdded(beneficiary, grants[beneficiary].length - 1, amount, start, cliffDuration, duration);
+    }
+
+    function vestedAmount(address beneficiary, uint256 grantId) public view returns (uint256) {
+        Grant storage g = grants[beneficiary][grantId];
+        if (block.timestamp < g.start + g.cliff || g.revoked) return 0;
+        uint256 elapsed = block.timestamp - g.start;
+        if (elapsed >= g.duration) return g.totalAmount;
+        return (g.totalAmount * elapsed) / g.duration;
+    }
+
+    function claim(uint256 grantId) external {
+        Grant storage g = grants[msg.sender][grantId];
+        require(!g.revoked, "revoked");
+        uint256 v = vestedAmount(msg.sender, grantId);
+        uint256 claimable = v - g.claimed;
+        require(claimable > 0, "nothing to claim");
+        g.claimed += claimable;
+        require(token.transfer(msg.sender, claimable), "transfer failed");
+        emit Claimed(msg.sender, grantId, claimable);
+    }
+
+    function revokeGrant(address beneficiary, uint256 grantId) external onlyOwner {
+        Grant storage g = grants[beneficiary][grantId];
+        require(!g.revoked, "already revoked");
+        g.revoked = true;
+        emit GrantRevoked(beneficiary, grantId);
+    }
+
+    function recoverTokens(address to, uint256 amount) external onlyOwner {
+        require(to != address(0), "zero to");
+        token.transfer(to, amount);
+    }
+}
+```
+
+/scripts/deploy-everything.js
+```js
+const { ethers } = require("hardhat");
+require("dotenv").config();
+
+async function main() {
+  const [deployer] = await ethers.getSigners();
+  console.log("Deployer:", deployer.address);
+
+  const initialSupply = ethers.utils.parseUnits("1000000000", 18);
+
+  const SlotDuck = await ethers.getContractFactory("SlotDuck");
+  const token = await SlotDuck.deploy(initialSupply, deployer.address, deployer.address, deployer.address, deployer.address);
+  await token.deployed();
+  console.log("SDUCK:", token.address);
+
+  const TeamVesting = await ethers.getContractFactory("TeamVesting");
+  const vesting = await TeamVesting.deploy(token.address);
+  await vesting.deployed();
+  console.log("Vesting:", vesting.address);
+
+  const vrfCoordinator = process.env.VRF_COORDINATOR;
+  const keyHash = process.env.VRF_KEYHASH;
+  const subId = parseInt(process.env.VRF_SUBSCRIPTION_ID || "0");
+
+  const SlotMachine = await ethers.getContractFactory("SlotMachine");
+  const sm = await SlotMachine.deploy(token.address, vrfCoordinator, keyHash, subId);
+  await sm.deployed();
+  console.log("SlotMachine:", sm.address);
+
+  const houseLiquidity = ethers.utils.parseUnits("500000000", 18);
+  await token.transfer(sm.address, houseLiquidity);
+  console.log("Funded SlotMachine with house liquidity");
+
+  console.log("Done. Save addresses to frontend/.env and root .env if needed.");
+}
+main().catch(e=>{ console.error(e); process.exit(1); });
+```
+
+/frontend/package.json
+```json
+{
+  "name": "slotduck-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ethers": "^5.7.2",
+    "web3modal": "^2.1.7",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+}
+```
+
+/frontend/.env.example
+```
+REACT_APP_TOKEN_ADDRESS=0xYourTokenAddress
+REACT_APP_SLOT_ADDRESS=0xYourSlotMachineAddress
+```
+
+/frontend/public/index.html
+```html
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SlotDuck</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script src="/static/js/bundle.js"></script>
+  </body>
+</html>
+```
+
+/frontend/src/App.jsx
+```jsx
+import React, { useEffect, useState } from "react";
+import { ethers } from "ethers";
+import Web3Modal from "web3modal";
+
+const TOKEN_ADDRESS = process.env.REACT_APP_TOKEN_ADDRESS;
+const SLOT_ADDRESS = process.env.REACT_APP_SLOT_ADDRESS;
+const SLOT_ABI = [
+  "function placeBet(uint256 amount) external",
+  "event BetPlaced(uint256 indexed requestId, address indexed player, uint256 amount)",
+  "event SpinResult(uint256 indexed requestId, address indexed player, uint256 amount, uint256 outcome, uint256 payout)"
+];
+const ERC20_ABI = [
+  "function approve(address spender, uint256 amount) public returns (bool)",
+  "function allowance(address owner, address spender) view returns (uint256)",
+  "function balanceOf(address) view returns (uint256)",
+  "function decimals() view returns (uint8)"
+];
+
+function App() {
+  const [provider, setProvider] = useState(null);
+  const [signer, setSigner] = useState(null);
+  const [address, setAddress] = useState("");
+  const [tokenBalance, setTokenBalance] = useState("0");
+  const [betAmount, setBetAmount] = useState("10");
+  const [logs, setLogs] = useState([]);
+
+  useEffect(()=>{ if (provider && signer) fetchBalance(); }, [provider, signer, address]);
+
+  async function connect() {
+    const web3Modal = new Web3Modal({ cacheProvider: true });
+    const instance = await web3Modal.connect();
+    const prov = new ethers.providers.Web3Provider(instance);
+    const s = prov.getSigner();
+    setProvider(prov); setSigner(s);
+    setAddress(await s.getAddress());
+  }
+
+  async function fetchBalance() {
+    try {
+      const token = new ethers.Contract(TOKEN_ADDRESS, ERC20_ABI, provider);
+      const bal = await token.balanceOf(address);
+      const decimals = await token.decimals();
+      setTokenBalance(ethers.utils.formatUnits(bal, decimals));
+    } catch (e) {}
+  }
+
+  async function approveAndBet() {
+    if (!signer) return alert("Connect wallet");
+    const token = new ethers.Contract(TOKEN_ADDRESS, ERC20_ABI, signer);
+    const slot = new ethers.Contract(SLOT_ADDRESS, SLOT_ABI, signer);
+    const decimals = await token.decimals();
+    const amount = ethers.utils.parseUnits(betAmount, decimals);
+
+    const allowance = await token.allowance(address, SLOT_ADDRESS);
+    if (allowance.lt(amount)) {
+      const tx = await token.approve(SLOT_ADDRESS, amount);
+      await tx.wait();
+      appendLog("Approved token for betting");
+    }
+    const tx2 = await slot.placeBet(amount);
+    appendLog("Placed bet, tx: " + tx2.hash);
+    await tx2.wait();
+    appendLog("Bet transaction mined, waiting for VRF...");
+  }
+
+  function appendLog(t) { setLogs(l=>[t,...l].slice(0,20)); }
+
+  useEffect(()=>{
+    if (!provider) return;
+    const slot = new ethers.Contract(SLOT_ADDRESS, SLOT_ABI, provider);
+    slot.on("SpinResult", (requestId, player, amount, outcome, payout) => {
+      try {
+        appendLog(`SpinResult player:${player} outcome:${outcome} payout:${ethers.utils.formatUnits(payout,18)}`);
+      } catch(e){}
+    });
+    return ()=> { slot.removeAllListeners("SpinResult"); };
+  }, [provider]);
+
+  return (
+    <div style={{ padding:20 }}>
+      <h2>SlotDuck — Minimal Frontend</h2>
+      <button onClick={connect}>{address ? "Connected: "+address.slice(0,6) : "Connect Wallet"}</button>
+      <div>Balance: {tokenBalance} SDUCK</div>
+      <div style={{ marginTop:10 }}>
+        <input value={betAmount} onChange={e=>setBetAmount(e.target.value)} /> <button onClick={approveAndBet}>Approve & Bet</button>
+      </div>
+      <div style={{ marginTop:20 }}>
+        <h4>Logs</h4>
+        <div style={{ maxHeight:300, overflow:"auto", background:"#eee", padding:10 }}>
+          {logs.map((l,i)=>(<div key={i}>{l}</div>))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default App;
+```
+
+/README.md
+```md
+# SlotDuck — Quickstart (Alastor666)
+
+1. Root: npm install
+2. Copia .env (usa .env.example) e riempi PRIVATE_KEY, MUMBAI_RPC_URL e Chainlink VRF params.
+3. Compile & Deploy (Mumbai):
+   - npx hardhat compile
+   - npx hardhat run --network mumbai scripts/deploy-everything.js
+4. Dopo deploy: copia gli indirizzi in frontend/.env (REACT_APP_TOKEN_ADDRESS, REACT_APP_SLOT_ADDRESS).
+5. Frontend:
+   - cd frontend
+   - npm install
+   - npm start
+6. Chainlink VRF: su Mumbai crea subscription, aggiungi SlotMachine come consumer, funding necessario (Chainlink docs).
+7. Testing:
+   - Wallet con SDUCK (deployer ha token mint).
+   - Approva e chiama placeBet dal frontend.
+8. Security & next steps:
+   - Audit professionale obbligatorio prima di mainnet.
+   - Implementa limiti di scommessa, house edge parametri, anti-bot e KYC/Compliance.
+
+Good luck — Alastor666 la papera è con te. Quack!
+```
+
+--- END REPO TEXT ---
+
+Dimmi se vuoi che:
+- generi qui lo ZIP encoded (base64) pronto per download, oppure
+- ti fornisca i comandi esatti per creare il repo/zip localmente (shell script)?
+
+Quack!
+
+--------------------
+
+Prompt dell'utente, 13 di 13 - 30/03/2026, 12:43:29:
+base64 e poi mi aiuti per postare sui siti
+
+GPT-5 mini:
+Quack! Alastor666 — non posso generare direttamente un file .zip qui, ma ti do due opzioni e ti assisto passo‑passo per pubblicare:
+
+1) Comandi per creare ZIP e ottenere Base64 localmente (Linux / macOS / WSL):
+- Crea repo/struttura e salva file come ti ho dato.
+- Zip:
+  - zip -r slotduck.zip <cartella_del_progetto>
+- Base64:
+  - base64 slotduck.zip > slotduck.zip.b64
+  - (oppure per output su terminale) base64 slotduck.zip
+
+2) Comandi PowerShell (Windows):
+- Compress-Archive -Path .\project_folder\* -DestinationPath .\slotduck.zip
+- [Convert]::ToBase64String([IO.File]::ReadAllBytes("slotduck.zip")) > slotduck.zip.b64
+
+3) Opzioni per pubblicare (scegli una, ti guido passo passo):
+
+A — GitHub (consigliato per codice)
+- Crea repo su GitHub
+- git init; git add .; git commit -m "init"; git branch -M main
+- git remote add origin https://github.com/tuo-utente/tuo-repo.git
+- git push -u origin main
+(Se vuoi posso fornirti il file .gitignore e i comandi completi con token)
+
+B — Gist (singolo file .zip.b64 o README)
+- Usa l'interfaccia gist.github.com o:
+  - curl -u "USERNAME:TOKEN" -X POST https://api.github.com/gists -d '{"public":true,"files":{"slotduck.zip.b64":{"content":"<CONTENUTO_BASE64>"}}}'
+(Metti il contenuto base64 nel campo content; per grandi file conviene caricare lo zip su Git LFS o IPFS)
+
+C — IPFS / Web3 (raccomandato per distribuzione immutabile)
+- Usa web3.storage:
+  - npm install -g web3token
+  - usa web3.storage web UI o client: npx web3.storage upload slotduck.zip
+- Oppure Pinata: carica via UI o API (richiede account e API key)
+
+D — File hosting rapido (temporaneo)
+- transfer.sh:
+  - curl --upload-file ./slotduck.zip https://transfer.sh/slotduck.zip
+- dropbox / Google Drive: carica via UI, copia link condivisibile.
+
+E — Publish su sito (es. Netlify / Vercel per frontend)
+- Porta solo cartella frontend, con netlify CLI o Vercel CLI:
+  - netlify deploy --prod --dir=frontend/build
+  - vercel --prod frontend
+
+Vuoi che:
+1) generi qui il Base64 del .zip (posso farlo solo se vuoi che io emetta il grande blocco base64 in chat — attento che può essere molto lungo), oppure  
+2) ti guidi passo‑passo per creare il .zip e pubblicarlo su GitHub / IPFS / transfer.sh?  
+
+Dimmi quale preferisci e procedo. Quack!
